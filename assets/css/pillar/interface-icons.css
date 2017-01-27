@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'pillar-interface';
-  src: url('/assets/fonts/pillar-interface.eot');
-  src: url('/assets/fonts/pillar-interface.eot') format('embedded-opentype'),
-       url('/assets/fonts/pillar-interface.woff') format('woff2'),
-       url('/assets/fonts/pillar-interface.woff') format('woff'),
-       url('/assets/fonts/pillar-interface.ttf') format('truetype'),
-       url('/assets/fonts/pillar-interface.svg') format('svg');
+  src: url('../../fonts/pillar-interface.eot');
+  src: url('../../fonts/pillar-interface.eot') format('embedded-opentype'),
+       url('../../fonts/pillar-interface.woff') format('woff2'),
+       url('../../fonts/pillar-interface.woff') format('woff'),
+       url('../../fonts/pillar-interface.ttf') format('truetype'),
+       url('../../fonts/pillar-interface.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }

@@ -1,48 +1,88 @@
-
 @import "variables.scss";
 
 /***************************
   Site custom styles below
 ****************************/
 
-// Overrides
+//OVERRIDES THEME COLORS
+
+.lila h4,
+.lila .h4 {
+  color: $tertiary-color;
+}
+
+.lila h5,
+.lila .h5 {
+  color: $tertiary-color;
+}
+
+h2,
+.h2 {
+  color: $secondary-color;
+}
+
+h3,
+.h3 {
+  color: $primary-color;
+}
+
+h4,
+.h4 {
+  color: $primary-color;
+}
+
+// HEADER CLIP-PATH
 
 .height-70 .background-image-holder {
   clip-path: url(img/dibuix.svg#header);
   clip-path: ellipse(100% 70% at 50% 30%);
 }
 
-section.height-70[data-overlay]:before
+.lila .height-70[data-overlay]:before
  {
-  background: $secondary-color;
+  background: $tertiary-color;
   clip-path: url(img/dibuix.svg#header);
   clip-path: ellipse(100% 70% at 19% 30%);
+ /* Old Browsers */background: -moz-linear-gradient(-45deg, $tertiary-color 0%, $tertiary-color 12%, black 66%, black 100%);
+ /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $tertiary-color), color-stop(12%, $tertiary-color), color-stop(66%, black), color-stop(100%, black));
+ /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $tertiary-color 0%, $tertiary-color 12%, black 66%, black 100%);
+ /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $tertiary-color 0%, $tertiary-color 12%, black 66%, black 100%);
+ /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $tertiary-color 0%, $tertiary-color 12%, black 66%, black 100%);
+ /* IE 10+ */background: linear-gradient(135deg, $tertiary-color 0%, $tertiary-color 12%, black 66%, black 100%);
+/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47013f', endColorstr='#f7f7f7', GradientType=1 );
+/* IE6-9 fallback on horizontal gradient */
 }
 
-.lila .height-70[data-overlay]:before {
-  background: rgb(93, 0, 186);
+.vermell .height-70[data-overlay]:before {
+  background: $primary-color;
   clip-path: url(img/dibuix.svg#header);
   clip-path: ellipse(100% 70% at 19% 30%);
- /* Old Browsers */background: -moz-linear-gradient(-45deg, rgba(184,0,0,1) 0%, rgba(184,0,0,1) 12%, rgba(71,1,63,1) 66%, rgba(71,1,63,1) 100%);
- /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(184,0,0,1)), color-stop(12%, rgba(184,0,0,1)), color-stop(66%, rgba(71,1,63,1)), color-stop(100%, rgba(71,1,63,1)));
- /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, rgba(184,0,0,1) 0%, rgba(184,0,0,1) 12%, rgba(71,1,63,1) 66%, rgba(71,1,63,1) 100%);
- /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, rgba(184,0,0,1) 0%, rgba(184,0,0,1) 12%, rgba(71,1,63,1) 66%, rgba(71,1,63,1) 100%);
- /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, rgba(184,0,0,1) 0%, rgba(184,0,0,1) 12%, rgba(71,1,63,1) 66%, rgba(71,1,63,1) 100%);
- /* IE 10+ */background: linear-gradient(135deg, rgba(184,0,0,1) 0%, rgba(184,0,0,1) 12%, rgba(71,1,63,1) 66%, rgba(71,1,63,1) 100%);
+ /* Old Browsers */background: -moz-linear-gradient(-45deg, $primary-color 0%, $primary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+ /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $primary-color), color-stop(12%, $primary-color), color-stop(66%, $tertiary-color), color-stop(100%, $tertiary-color));
+ /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $primary-color 0%, $primary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+ /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $primary-color 0%, $primary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+ /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $primary-color 0%, $primary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+ /* IE 10+ */background: linear-gradient(135deg, $primary-color 0%, $primary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
 /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b80000', endColorstr='#47013f', GradientType=1 );
 /* IE6-9 fallback on horizontal gradient */
 }
 
 .verd .height-70[data-overlay]:before
  {
-  background: rgb(82, 190, 7);
+  background: $secondary-color;
+  clip-path: url(img/dibuix.svg#header);
   clip-path: ellipse(100% 70% at 19% 30%);
+ /* Old Browsers */background: -moz-linear-gradient(-45deg, $secondary-color 0%, $secondary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+ /* FF3.6+ */background: -webkit-gradient(left top, right bottom, color-stop(0%, $secondary-color), color-stop(12%, $secondary-color), color-stop(66%, $tertiary-color), color-stop(100%, $tertiary-color));
+ /* Chrome, Safari4+ */background: -webkit-linear-gradient(-45deg, $secondary-color 0%, $secondary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+ /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(-45deg, $secondary-color 0%, $secondary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+ /* Opera 11.10+ */background: -ms-linear-gradient(-45deg, $secondary-color 0%, $secondary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+ /* IE 10+ */background: linear-gradient(135deg, $secondary-color 0%, $secondary-color 12%, $tertiary-color 66%, $tertiary-color 100%);
+/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52be07', endColorstr='#47013f', GradientType=1 );
+/* IE6-9 fallback on horizontal gradient */
 }
 
-
-
-
-
+// IMAGE BLOC CLIP-PATH
 
 @media all and (min-width: 767px) {
   .about-1 .pos-left .background-image-holder {
@@ -59,31 +99,7 @@ section.height-70[data-overlay]:before
 }
 
 
-// .stats-1 .feature {
-//   border-radius: 3em;
-// }
-
-.lila h4,
-.lila .h4 {
-  color: #5d00ba;
-}
-.lila h5,
-.lila .h5 {
-  color: rgb(93, 0, 186);
-}
-
-h2,
-.h2 {
-  color: #7cc36a;
-}
-h3,
-.h3 {
-
-}
-h4,
-.h4 {
-  color: #bb4242;
-}
+// FEATURES AVATAR
 
 .avatar {
   border-radius: 50%;
