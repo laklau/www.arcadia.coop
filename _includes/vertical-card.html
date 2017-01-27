@@ -1,0 +1,32 @@
+<!-- Vertical card section -->
+
+<section>
+    <div class="container">
+      <div class="row">
+            <div class="col-sm-12">
+                <div class="elements--title">
+                    <h4>Vertical Text Cards Title</h4>
+                </div>
+            </div>
+            {% assign cards = site.vertical-cards | sort: 'order' %}
+            {% for item in cards %}
+            {% if item.pagina == page.layout %}
+                <div class="col-md-4 col-sm-6">
+                    <div class="card card-1">
+                        <div class="card__image">
+                            <img alt="Pic" src="/assets/img/{{ item.card-image }}">
+                        </div>
+                        <div class="card__body boxed bg--white">
+                            <div class="card__title">
+                                <h5>{{ item.title }}</h5>
+                            </div>
+                            <span><em>{{ item.subtitle }}</em></span>
+                            {{ item.content }}
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+            {% endfor %}
+      </div>
+    </div>
+</section>
