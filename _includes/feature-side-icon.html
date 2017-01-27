@@ -1,0 +1,17 @@
+<!-- Features side icon left -->
+{% assign features = site.features-side-icon | sort: 'order' %}
+{% for item in features %}
+{% if item.pagina == page.layout %}
+<div class="col-sm-6">
+    <div class="feature feature-3">
+        <div class="feature__left">
+            <i class="icon {{ item.icon }} "></i>
+        </div>
+        <div class="feature__right">
+            <h6>{{ item.title }}</h6>
+            {{ item.content }} 
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endfor %}

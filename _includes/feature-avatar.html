@@ -1,0 +1,13 @@
+<!-- Features thumb -->
+{% assign features = site.features-avatar | sort: 'order' %}
+{% for item in features %}
+{% if item.pagina == page.layout %}
+<div class="col-xs-6">
+    <div class="feature feature-1">
+        <img class="avatar" src="/assets/img/{{ item.avatar }}" alt="{{ item.title }}">
+        <h5>{{ item.title }}</h5>
+        {{ item.content }}
+    </div>
+</div>
+{% endif %}
+{% endfor %}

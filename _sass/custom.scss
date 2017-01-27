@@ -59,9 +59,9 @@ section.height-70[data-overlay]:before
 }
 
 
-.stats-1 .feature {
-  border-radius: 3em;
-}
+// .stats-1 .feature {
+//   border-radius: 3em;
+// }
 
 .lila h4,
 .lila .h4 {
@@ -83,4 +83,10 @@ h3,
 h4,
 .h4 {
   color: #bb4242;
+}
+
+.avatar {
+  border-radius: 50%;
+  max-width: 50%;
+  max-height: auto;
 }

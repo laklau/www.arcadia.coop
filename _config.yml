@@ -32,3 +32,5 @@ exclude:
 
 collections:
   - imageblocks
+  - features-side-icon
+  - features-avatar
