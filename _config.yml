@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Arcadia escola autogestionària
 email: your-email@domain.com
+location: "Carrer de la Constitució 25, 08014 Barcelona"
 description: "Arcadia es un proyecto de centro educativo autogestionario, cooperativo y comunitario en Barcelona."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
