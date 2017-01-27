@@ -7,12 +7,18 @@
 
 {% include nav.html %}
 
+
+<div class="main-container {{ page.overlay-color }}">
+{% include header.html %}
+
 <!-- Main Content -->
+
 {{ content }}
 
 <!-- End main Content -->
 
 {% include footer.html %}
+</div>
 
 {% include script.html %}
 
