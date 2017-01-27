@@ -1,5 +1,5 @@
 <!-- Image block -->
-{% assign imageblocks = site.imageblocks | sort: 'order' %}
+{% assign imageblocks = site.image-blocks | sort: 'order' %}
 {% for item in imageblocks %}
 {% if item.pagina == page.layout %}
   <section class="imageblock about-1">

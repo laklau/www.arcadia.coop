@@ -1,0 +1,24 @@
+<!-- testimonials section -->
+<section class="testimonial testimonial-4 section--even bg--white">
+    <div class="container">
+        <div class="row">
+            <div class="slider slider--controlsoutside" data-animation="fade" data-arrows="false" data-paging="true" data-timing="5000">
+                <ul class="slides">
+                  {% assign testimonials = site.testimonials | sort: 'order' %}
+                  {% for item in testimonials %}
+                  {% if item.pagina == page.layout %}
+                  <li>
+                      <div class="col-sm-10 col-sm-offset-1 text-center">
+                          <blockquote>
+                              {{ item.content }}
+                          </blockquote>
+                          <h5>{{ item.person }}</h5>
+                      </div>
+                  </li>
+                  {% endif %}
+                  {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

@@ -31,6 +31,7 @@ exclude:
   - Gemfile.lock
 
 collections:
-  - imageblocks
   - features-side-icon
   - features-avatar
+  - image-blocks
+  - testimonials
