@@ -1,0 +1,25 @@
+<!-- Features icon boxed section -->
+<section class="stats-1 {% if section.fons %}{{ section.fons }}{% else %}{% endif %}">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h4>{{ section.headline }}</h4>
+            </div>
+        </div>
+
+        <div class="row">
+          {% for item in section.conceptes %}
+
+            <div class="col-sm-4">
+                <div class="feature feature-1 text-center boxed boxed--lg">
+                    <i class="icon color--primary icon-{{ item.icona }} icon--lg"></i>
+                    <h3>{{ item.nom }}</h3>
+                    <span><em>{{ item.subtitol }}</em></span>
+                </div>
+            </div>
+          {% endfor %}
+
+        </div>
+
+    </div>
+</section>

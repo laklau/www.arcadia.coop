@@ -1,7 +1,7 @@
 ---
 layout: multi-section
-sections: teoria # Nom de la col·leccio de seccions de la pagina
-title: "Principis pedagògics"
+sections: objectius # Nom de la col·leccio de seccions de la pagina
+title: "Els nostres objectius"
 hero-image: "presentacio.jpg"
 overlay-color: vermell
 # Set SEO information

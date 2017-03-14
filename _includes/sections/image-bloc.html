@@ -1,0 +1,23 @@
+  <!-- Image block -->
+    <section class="imageblock about-1">
+        <div class="imageblock__content col-md-6 col-sm-4 pos-{{ section.side }}">
+          <div class="background-image-holder">
+            <img alt="{{ section.img-alt }}" src="/assets/img/{{ section.block-image }}">
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            {% if section.side == 'right' %}
+            <div class="col-md-5 col-sm-8">
+              <h4>{{ section.headline }}</h4>
+              <p>{{ section.content }}
+              </p>
+            </div>
+            {% else %}
+            <div class="col-md-5 col-md-push-7 col-sm-8 col-sm-push-4">
+                <h4>{{ section.headline }}</h4>
+                {{ section.content }}
+            </div>
+            {% endif %}
+          </div>
+    </section>

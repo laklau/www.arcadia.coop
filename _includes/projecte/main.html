@@ -1,0 +1,37 @@
+ <!-- Projecte main section -->
+ <section class="height-40 bg--secondary">
+     <div class="container pos-vertical-center">
+         <div class="row">
+             <div class="col-sm-12 text-center">
+                 <h2>{{ section.headline }}</h2>
+                 <span><em>{{ section.subheadline }}</em></span>
+             </div>
+         </div>
+     </div>
+ </section>
+ <section class="bg--secondary imageblock features features-12">
+     <div class="imageblock__content col-md-4 col-sm-3 pos-left">
+         <div class="background-image-holder">
+             <img alt="image" src="assets/img/{{ section.image }}">
+         </div>
+     </div>
+     <div class="container">
+         <div class="row">
+             {% assign blocs = section.contingut %}
+             {% for item in blocs %}
+             <div class="col-md-7 col-md-push-5 col-sm-8 col-sm-push-4">
+                 <h4>{{ item.title }}</h4>
+                 <p class="lead">{{ item.lead }}</p>
+                 <div class="feature col-sm-6">
+                     <h5>{{ item.left-title }}</h5>
+                     <p>{{ item.left-content }}</p>
+                 </div>
+                 <div class="feature col-sm-6">
+                     <h5>{{ item.right-title }}</h5>
+                     <p>{{ item.right-content }}</p>
+                 </div>
+             </div>
+             {% endfor %}
+         </div>
+     </div>
+ </section>

@@ -1,0 +1,44 @@
+ <!-- Projecte dades section -->
+ <section>
+    <div class="container">
+      {% assign fases = section.fases %}
+      {% for item in fases %}
+        <div class="row">
+            <div class="col-md-5">
+                <h5>{{ item.headline }}</h5>
+                <p>{{ item.text }}</p>
+            </div>
+            <div class="col-md-6 col-md-offset-1">
+                {% assign valors = item.grafic %}
+                {% for item in valors %}
+                <div class="barchart barchart-2" data-value="{{ item.valor }}">
+                    <div class="barchart__description">
+                        <span class="h6">{{ item.nom }}</span>
+                    </div>
+                    <div class="barchart__bar">
+                        <div class="barchart__progress"></div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+<section class="imagebg section--even stats-1 parallax" data-overlay="7">
+    <div class="background-image-holder">
+        <img alt="image" src="/assets/img/{{ section.image }}">
+    </div>
+    <div class="row wide-grid">
+      {% assign stats = section.stats %}
+      {% for item in stats %}
+      <div class="col-sm-3 col-xs-6">
+          <div class="feature feature-1 text-center">
+              <i class="icon icon-{{ item.icona }} icon--lg"></i>
+              <h3>{{ item.valor }}</h3>
+              <span><em>{{ item.nom }}</em></span>
+          </div>
+      </div>
+      {% endfor %}
+    </div>
+</section>

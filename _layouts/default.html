@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "es" }}">
 
-{% include head.html %}
+{% include shared/head.html %}
 
 <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
 
-{% include nav.html %}
+{% include shared/nav.html %}
 
 
 <div class="main-container {{ page.overlay-color }}">
-{% include header.html %}
+{% include shared/header.html %}
 
 <!-- Main Content -->
 
@@ -17,10 +17,10 @@
 
 <!-- End main Content -->
 
-{% include footer.html %}
+{% include shared/footer.html %}
 </div>
 
-{% include script.html %}
+{% include shared/script.html %}
 
 </body>
 

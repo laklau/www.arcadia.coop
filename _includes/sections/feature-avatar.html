@@ -1,0 +1,27 @@
+<!-- Features avatar section -->
+<section class="bg--secondary imageblock features features-1">
+                <div class="imageblock__content col-md-5 col-sm-3 pos-left">
+                    <div class="background-image-holder">
+                        <img alt="image" src="/assets/img/{{ section.image }}">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-push-6 col-sm-8 col-sm-push-4">
+                            <h3>{{ section.headline }}</h3>
+                            <div class="lead">{{ section.content }}</div>
+                            <hr>
+                            {% assign features = site.pilars | sort: 'order' %}
+                            {% for item in features %}
+                            <div class="col-xs-6">
+                                <div class="feature feature-1">
+                                    <img class="avatar" src="/assets/img/{{ item.avatar }}" alt="{{ item.title }}">
+                                    <h5>{{ item.title }}</h5>
+                                    {{ item.content }}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+</section>

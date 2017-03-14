@@ -32,8 +32,15 @@ exclude:
   - Gemfile.lock
 
 collections:
-  - features-side-icon
-  - features-avatar
+  - contacte
+  - escola
+  - funcionament
+  - home
   - image-blocks
+  - objectius
+  - pedagogia
+  - pilars
+  - projecte
   - testimonials
+  - teoria
   - vertical-cards
