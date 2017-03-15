@@ -2,46 +2,30 @@
 <footer class="bg--dark footer-1 text-center-xs">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 col-sm-4">
-          <a href="#"><img alt="Arcadia" class="logo" src="/assets/img/Arcadia_Logo_OK_color-b.png"></a>
-          <p>{{ site.description }}</p>
-      </div>
-      <div class="col-md-5 col-sm-8">
-          <h6>Navega</h6>
+      <div class="col-md-3 col-sm-8">
           <ul class="footer__navigation">
               <li>
-                  <a href="#"><span>L'ESCOLA</span></a>
+                  <a href="{{ site.baseurl }}{% link cookies.md %}"><span>COOKIES</span></a>
               </li>
               <li>
-                  <a href="#"><span>PRINCIPIS PEDAGÒGICS</span></a>
-              </li>
-              <li>
-                  <a href="#"><span>PROJECTE TÈCNIC</span></a>
-              </li>
-              <li>
-                  <a href="#"><span>CONTACTE</span></a>
-              </li>
-          </ul>
-          <ul class="footer__navigation">
-              <li>
-                  <a href="#"><span>cOOKIES</span></a>
-              </li>
-              <li>
-                  <a href="#"><span>INFORMACIÓ LEGAL</span></a>
-              </li>
-              <li>
-                  <a href="#"><span> </span></a>
+                  <a href="{{ site.baseurl }}{% link legal.md %}"><span>INFORMACIÓ LEGAL</span></a>
               </li>
           </ul>
       </div>
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-6 col-sm-12 a1-subscription">
           <h6>VOLS REBRE INFORMACIÓ?</h6>
           <p>Si vols estar al dia de les nostres activitats i dels avenços del projecte, subscriu-te!</p>
-          <form action="http://mrareco.createsend.com/t/d/s/kieth/?callback=??callback=??callback=??callback=??callback=??callback=?" class="form--merge form--no-labels form--active" data-error="Please fill all fields correctly." data-success="Thanks for signing up! Please check your inbox for confirmation email." id="subForm" method="post" name="subForm" novalidate="novalidate">
+          <form action="http://mrareco.createsend.com/t/d/s/kieth/?callback=??callback=??callback=??callback=??callback=??callback=?" class="form--merge form--no-labels form--active" data-error="Has d'omplir el camp amb el format correcte" data-success="Gràcies!" id="subForm" method="post" name="subForm" novalidate="novalidate">
               <br>
-              <input class="col-md-8 col-sm-6 validate-required validate-email" id="fieldEmail" name="cm-kieth-kieth" type="email" placeholder="Email Address">
-              <button type="submit" class="btn">Go</button>
+              <input class="col-md-8 col-sm-6 validate-required validate-email" id="fieldEmail" name="cm-kieth-kieth" type="email" placeholder="nom@domini.cat">
+              <button type="submit" class="btn">Enviar</button>
           </form>
+      </div>
+      <div class="col-md-3 col-sm-4 a1-license">
+            <p>
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ca" target="_blank">Continguts sota llicencia CC<br>Reconeixement - NoComercial - CompartirIgual 4.0</a>
+            </p>
+            <img alt="Llicència CC BY-NC-SA 4.0 Internacional" class="" src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png">
       </div>
       </div>
       <div class="row footer__lower text-center-xs">
@@ -49,21 +33,15 @@
           <hr>
       </div>
       <div class="col-sm-6">
-          <span class="type--fine-print">© 2016 Adab1ts. Crafted lovingly in Barri de Sants, Barcelona.</span>
+          <span class="type--fine-print">© 2017 <a href="https:www.adabits.org" target="_blank">Adab1ts</a>. Crafted lovingly in Barri de Sants, Barcelona.</span>
       </div>
       <div class="col-sm-6 text-right text-center-xs">
           <ul class="social-list">
               <li>
-                  <a href="#"><i class="socicon-twitter"></i></a>
+                  <a href="https://twitter.com/{{ site.twitter_username }}"><i class="socicon-twitter"></i></a>
               </li>
               <li>
-                  <a href="#"><i class="socicon-facebook"></i></a>
-              </li>
-              <li>
-                  <a href="#"><i class="socicon-vimeo"></i></a>
-              </li>
-              <li>
-                  <a href="#"><i class="socicon-mail"></i></a>
+                  <a href="mailto:{{ site.email }}"><i class="socicon-mail"></i></a>
               </li>
           </ul>
       </div>

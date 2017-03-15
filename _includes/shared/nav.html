@@ -1,36 +1,46 @@
 <!-- Navigation -->
-<div class="nav-container"><nav>
-        <div class="nav-bar" data-fixed-at="700">
-            <div class="nav-module logo-module left">
-                <a href="index.html"><div class="vnu"><img alt="logo" class="logo logo-dark" src="/assets/img/Arcadia_Logo_OK_color.png"></div> <img alt="logo" class="logo logo-light" src="/assets/img/Arcadia_Logo_OK_color.png"></a>
-            </div>
-            <div class="nav-module menu-module left">
-                <ul class="menu">
-
-                    <li>
-                        <a href="arcadia.html" target="_self">L'ESCOLA</a>
-                        <ul class="make-right">
-                            <li>
-                                <a href="objectius.html" target="_self">OBJECTIUS</a>
-                            </li><li class="vpf">
-                                <a href="funcionament.html" target="_self">COM FUNCIONEM</a>
-                            </li>
-
-                        </ul>
-                    </li><li class="vpf">
-                        <a href="teoria.html" target="_self">principis pedagògics</a>
-
-                    </li><li class="vpf">
-                        <a href="projecte.html" target="_self">projecte tècnic</a>
-                    </li><li class="vpf">
-                        <a href="contacte.html" target="_self">CONTACTE</a>
-                    </li>
-
-                </ul>
-            </div>
+<div class="nav-container">
+  <nav>
+    <div class="nav-bar" data-fixed-at="700">
+        <div class="nav-module logo-module left">
+            <a href="{{ site.baseurl }}{% link index.md %}">
+              <div class="vnu">
+                <img alt="logo" class="logo logo-dark" src="/assets/img/Arcadia_Logo_OK_color.png">
+              </div>
+              <img alt="logo" class="logo logo-light" src="/assets/img/Arcadia_Logo_OK_color.png">
+            </a>
         </div>
-        <div class="nav-mobile-toggle visible-sm visible-xs">
-            <i class="icon-Align-JustifyAll icon icon--sm"></i>
+        <div class="nav-module menu-module left">
+          <ul class="menu">
+              <li class="vpf">
+                  <a href="{{ site.baseurl }}{% link index.md %}" target="_self">INICI</a>
+              </li>
+
+              <li>
+                  <a href="{{ site.baseurl }}{% link arcadia.md %}" target="_self">L'ESCOLA</a>
+                  <ul class="make-right">
+                      <li>
+                          <a href="{{ site.baseurl }}{% link objectius.md %}" target="_self">OBJECTIUS</a>
+                      </li>
+                      <li class="vpf">
+                          <a href="{{ site.baseurl }}{% link funcionament.md %}" target="_self">COM FUNCIONEM</a>
+                      </li>
+                  </ul>
+              </li>
+              <li class="vpf">
+                  <a href="{{ site.baseurl }}{% link teoria.md %}" target="_self">principis pedagògics</a>
+              </li>
+              <li class="vpf">
+                  <a href="{{ site.baseurl }}{% link projecte.md %}" target="_self">projecte tècnic</a>
+              </li>
+              <li class="vpf">
+                  <a href="{{ site.baseurl }}{% link contacte.md %}" target="_self">CONTACTE</a>
+              </li>
+          </ul>
         </div>
-    </nav>
+    </div>
+    <div class="nav-mobile-toggle visible-sm visible-xs">
+      <i class="icon-Align-JustifyAll icon icon--sm"></i>
+    </div>
+  </nav>
 </div>
