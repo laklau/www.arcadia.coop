@@ -1,36 +1,26 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Arcadia escola autogestionària
-email: your-email@domain.com
-location: "Carrer de la Constitució 25, 08014 Barcelona"
+mobile_title: Arcadia
 description: "Arcadia es un proyecto de centro educativo autogestionario, cooperativo y comunitario en Barcelona."
+author: "Escola Arcàdia"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+email: your-email@domain.com
+lang: ca
+google_analytics:
+logo:
+location: "Carrer de la Constitució 25, 08014 Barcelona"
 twitter_username: jekyllrb
-github_username:  jekyll
+license: "Continguts sota llicencia CC Reconeixement - NoComercial - CompartirIgual 4.0"
 
-# Build settings
-markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# Where things are
+source:
+destination:
+images_path: assets/img
+scripts_path: assets/js
+styles_path: assets/css
 
+# Collections
 collections:
   - contacte
   - escola
@@ -44,3 +34,23 @@ collections:
   - testimonials
   - teoria
   - vertical-cards
+
+# Handling Reading
+encoding: "utf-8"
+markdown_ext: "md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+
+# Build settings
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Outputting
+permalink: pretty
+timezone: Europe/Madrid
