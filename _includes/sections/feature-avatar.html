@@ -2,7 +2,7 @@
 <section class="bg--secondary imageblock features features-1">
                 <div class="imageblock__content col-md-5 col-sm-3 pos-left">
                     <div class="background-image-holder">
-                        <img alt="image" src="/assets/img/{{ section.image }}">
+                        <img alt="image" src="{{ site.baseurl }}/{{ site.images_path }}/{{ section.image }}">
                     </div>
                 </div>
                 <div class="container">
@@ -15,7 +15,7 @@
                             {% for item in features %}
                             <div class="col-xs-6">
                                 <div class="feature feature-1">
-                                    <img class="avatar" src="/assets/img/{{ item.avatar }}" alt="{{ item.title }}">
+                                    <img class="avatar" src="{{ site.baseurl }}/{{ site.images_path }}/{{ item.avatar }}" alt="{{ item.title }}">
                                     <h5>{{ item.title }}</h5>
                                     {{ item.content }}
                                 </div>
