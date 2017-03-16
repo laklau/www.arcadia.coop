@@ -5,6 +5,6 @@ title: "L'escola Arcàdia"
 hero-image: "presentacio.jpg"
 overlay-color: vermell
 # Set SEO information
-description: "L'Escola Arcàdia"
+description: "Escola autogestionària a Can Batlló"
 keywords: "escola arcàdia, arcadia"
 ---

@@ -1,14 +1,31 @@
-<section class="bg--secondary">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h4>{{ section.headline }}</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                {{ section.content }}
-            </div>
-        </div>
+<!-- Intro section with 3 blocs -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-center">
+        <h3>{{ section.headline }}</h3>
+        <p class="lead">{{ section.subheadline }} </p>
+      </div>
     </div>
+  </div>
+</section>
+<section class="features features-10">
+  {% assign bloc = section.blocs.left %}
+  <div class="feature bg--white col-md-4 text-center">
+    <i class="icon icon-{{ bloc.icon }} icon--lg"></i>
+    <h4>{{ bloc.title }}</h4>
+    <p>{{ bloc.subtitle }}</p>
+  </div>
+  {% assign bloc = section.blocs.center%}
+  <div class="feature bg--primary col-md-4 text-center">
+    <i class="icon icon-{{ bloc.icon }} icon--lg"></i>
+    <h4>{{ bloc.title }}</h4>
+    <p>{{ bloc.subtitle }}</p>
+  </div>
+  {% assign bloc = section.blocs.right %}
+  <div class="feature bg--secondary col-md-4 text-center">
+    <i class="icon icon-{{ bloc.icon }} icon--lg"></i>
+    <h4>{{ bloc.title }}</h4>
+    <p>{{ bloc.subtitle }}</p>
+  </div>
 </section>
