@@ -1,24 +1,16 @@
 <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <title>Escola Arcàdia | {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    {% capture description%}
+    {% if page.description %}{{ page.description }}{% else %}{{ page.excerpt | default: site.description | strip_html }}{% endif %}
+    {% endcapture %}
+    <meta name="description" content="{{ description | normalize_whitespace | truncate: 160 | escape}}">
     <meta name="keywords" content="{{ page.keyword | strip_html | normalize_whitespace | escape }}">
-    <meta name="author" content="{{ page.author }}">
+    <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 
-{% include shared/styles.html %}
-
-
-<!-- Facebook and Twitter integration -->
-    <meta property="og:title" content=""/>
-    <meta property="og:image" content=""/>
-    <meta property="og:url" content=""/>
-    <meta property="og:site_name" content=""/>
-    <meta property="og:description" content=""/>
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:image" content="" />
-    <meta name="twitter:url" content="" />
-    <meta name="twitter:card" content="" />
+    {% include shared/head-seo.html %}
+    {% include shared/head-styles.html %}
 
 <!-- Analytics -->
    {% if jekyll.environment == 'production' and site.google_analytics %}
