@@ -4,5 +4,5 @@ order: 1
 # Specify the layout for this section
 include: sections/feature-side-icon.html
 # Set variables
-headline: "Rasgos de innovación pedagògica y social"
+titol_seccio: "Rasgos de innovación pedagògica y social"
 ---

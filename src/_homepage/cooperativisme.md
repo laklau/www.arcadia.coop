@@ -1,9 +1,13 @@
 ---
-title: "About Arcàdia"
+# Set the display order for this section
+order: 3
+# Specify the layout for this section
+include: pillar/imageblock-left.html
+# Set variables
+type: "imageblock"
+titol_seccio: "Cooperativisme autogestionari"
 imatge: "psicomotricidad.jpg"
 descripcio_imatge: "descripció de la imatge"
-pagina: about
-order: 1
 ---
 Associació autònoma de persones unides voluntàriament per satisfer les seves necessitats i aspiracions econòmiques, socials i culturals en comú, a través d’una empresa de propietat conjunta i gestió democràtica.
 

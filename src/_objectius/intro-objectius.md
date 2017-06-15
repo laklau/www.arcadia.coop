@@ -4,7 +4,7 @@ order: 1
 # Specify the layout for this section
 include:
 # Set variables
-headline: "Una experiencia escolar basada en... "
+titol_seccio: "Una experiencia escolar basada en... "
 ---
 la libertad responsable, la autonomía, el respeto
 y la cooperación, transmite unas habilidades sociales que proyecta a las personas

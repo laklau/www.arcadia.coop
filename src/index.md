@@ -1,10 +1,11 @@
 ---
 layout: multi-section
-sections: home # Nom de la col·leccio de seccions de la pagina
-title: "Escola autogestionària i cooperativa"
-hero-image: "presentacio.jpg"
-overlay-color: vermell
+sections: homepage # Nom de la col·leccio de seccions de la pagina
+titol_pagina: "Escola autogestionària i cooperativa"
+hero_imatge: "presentacio.jpg"
+color_pagina: vermell
 # Set SEO information
-description:
-keywords: "sanimap, mapa de la sanitat, mapa del sistema sanitari, mapeig de la sanitat, sanitat catalana"
+title: "Escola autogestionària i cooperativa"
+description: "Escola autogestionària i cooperativa situada a Can Batlló, Barcelona."
+keywords: "educació lliure, escola can batllo, escola lliure barcelona"
 ---

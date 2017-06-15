@@ -32,7 +32,7 @@ collections:
   - contacte
   - escola
   - funcionament
-  - home
+  - homepage
   - image-blocks
   - objectius
   - pedagogia
@@ -41,6 +41,29 @@ collections:
   - testimonials
   - teoria
   - vertical-cards
+
+# Site defaults frontmatters
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "imageblock"
+    values:
+      order: 1
+      titol_seccio: "Títol de la secció"
+      imatge: psicomotricidad.jpg
+      descripcio_imatge: "fotografia"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "feature-icon-boxed"
+    values:
+      order: 1
+      titol_seccio: "Títol de la secció"
+      conceptes:
+        - nom: "Autogestió"
+        - subtitol: "Cooperativisme autogestionari"
+        - icona: "Bodybuilding"
 
 # Handling Reading
 encoding: "utf-8"

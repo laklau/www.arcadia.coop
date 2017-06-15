@@ -4,6 +4,6 @@ order: 2
 # Specify the layout for this section
 include: sections/vertical-card.html
 # Set variables
-headline: "Vertical Text Cards Title"
+titol_seccio: "Vertical Text Cards Title"
 
 ---

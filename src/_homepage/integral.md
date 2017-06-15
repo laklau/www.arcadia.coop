@@ -1,11 +1,11 @@
 ---
 # Set the display order for this section
-order: 5
+order: 4
 # Specify the layout for this section
-include: pillar/imageblock-left.html
+include: pillar/imageblock-right.html
 # Set variables
 type: "imageblock"
-titol_seccio: "Equitat"
+titol_seccio: "Educació integral"
 imatge: "psicomotricidad.jpg"
 descripcio_imatge: "descripció de la imatge"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Cooperativisme autogestionari"
-block-image: "psicomotricidad.jpg"
-img-alt: "descripció de la imatge"
+imatge: "psicomotricidad.jpg"
+descripcio_imatge: "descripció de la imatge"
 pagina: home
 order: 1
 ---

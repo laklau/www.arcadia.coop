@@ -2,9 +2,10 @@
 # Set the display order for this section
 order: 1
 # Specify the layout for this section
-include: sections/feature-icon-boxed.html
+include: pillar/feature-icon-boxed.html
 # Set variables
-headline: "L'arcàdia en 6 conceptes"
+type: "feature-icon-boxed"
+titol_seccio: "L'arcàdia en 6 conceptes"
 fons: "bg--secondary"
 conceptes:
   - nom: "Autogestió"

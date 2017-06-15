@@ -3,13 +3,11 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h4>{{ section.headline }}</h4>
+                <h4>{{ section.titol_seccio }}</h4>
             </div>
         </div>
-
         <div class="row">
           {% for item in section.conceptes %}
-
             <div class="col-sm-4">
                 <div class="feature feature-1 text-center boxed boxed--lg">
                     <i class="icon color--primary icon-{{ item.icona }} icon--lg"></i>
@@ -18,8 +16,6 @@
                 </div>
             </div>
           {% endfor %}
-
         </div>
-
     </div>
 </section>

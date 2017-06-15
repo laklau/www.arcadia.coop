@@ -4,8 +4,8 @@ order: 1
 # Specify the layout for this section
 include: projecte/main.html
 # Set variables
-headline: "Projecte arquitectònic a Can Batlló"
-subheadline: "Realització prevista per febrer del 2019"
+titol_seccio: "Projecte arquitectònic a Can Batlló"
+subtitol_seccio: "Realització prevista per febrer del 2019"
 image: psicomotricidad.jpg
 contingut:
   - title: PROGRAMA

@@ -1,9 +1,13 @@
 ---
-title: "Un model educatiu basat en la llibertat responsable"
+# Set the display order for this section
+order: 2
+# Specify the layout for this section
+include: pillar/imageblock-right.html
+# Set variables
+type: "imageblock"
+titol_seccio: "Un model educatiu basat en la llibertat responsable"
 imatge: "psicomotricidad.jpg"
 descripcio_imatge: "descripció de la imatge"
-pagina: home
-order: 2
 ---
 Apoyo mutuo, solidaridad, libertad, igualdad ético colectiva, dignidad, responsabilidad, participación, compromiso, decisión colectiva, sinceridad, autonomia, derechos y obligaciones, respeto ...
 

@@ -1,0 +1,16 @@
+<!-- Content with image on the left side -->
+<section class="imageblock about-1">
+  <div class="imageblock__content col-md-6 col-sm-4 pos-left">
+    <div class="background-image-holder">
+      <img alt="{{ section.descripcio_imatge }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ section.imatge }}">
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-md-push-7 col-sm-8 col-sm-push-4">
+        <h4>{{ section.titol_seccio }}</h4>
+        {{ section.content }}
+      </div>
+    </div>
+  </div>
+</section>
