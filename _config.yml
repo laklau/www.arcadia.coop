@@ -1,24 +1,31 @@
 # Site settings
+baseurl: "" # edit baseurl to simply '/' if using as your personal page (instead of a project page)
+url: # the base hostname & protocol for your site, e.g. http://example.com
+lang: 'ca'
+google_analytics:
+
+# Site info
 title: Arcadia escola autogestionària
 mobile_title: Arcadia
 description: "Arcadia es un proyecto de centro educativo autogestionario, cooperativo y comunitario en Barcelona."
-author: "Escola Arcàdia"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-email: your-email@domain.com
-lang: ca
-google_analytics:
-logo:
-location: "Carrer de la Constitució 25, 08014 Barcelona"
-twitter_username: jekyllrb
 license: "Continguts sota llicencia CC Reconeixement - NoComercial - CompartirIgual 4.0"
+color: #b80000
+
+# Owner's info
+author: 'Escola Arcàdia'
+location: 'Carrer de la Constitució 25, 08014 Barcelona'
+email: info@adabits.org
+tel: '934 321 765'
+logo: logo-dark.png
+twitter: adab1ts
 
 # Where things are
-source:
+source: src
 destination:
 images_path: assets/img
-scripts_path: assets/js
-styles_path: assets/css
+theme_scripts_path: assets/pillar/js
+theme_styles_path: assets/pillar/css
+theme_fonts_path: assets/pillar/fonts
 
 # Collections
 collections:
