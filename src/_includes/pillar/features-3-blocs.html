@@ -1,0 +1,20 @@
+<!-- Intro section with 3 blocs -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 text-center">
+        <h3>{{ section.titol_seccio }}</h3>
+        <p class="lead">{{ section.subtitol_seccio }} </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="features features-10">
+  {% for bloc in section.blocs %}
+  <div class="feature bg--{{ bloc.bg_color }} col-md-4 text-center">
+    <i class="icon icon-{{ bloc.icona }} icon--lg"></i>
+    <h4>{{ bloc.nom }}</h4>
+    <p>{{ bloc.subtitol }}</p>
+  </div>
+  {% endfor %}
+</section>
