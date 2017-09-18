@@ -5,10 +5,9 @@ order: 3
 include: pillar/imageblock-left.html
 # Set variables
 type: "imageblock"
-titol_seccio: "Cooperativisme autogestionari"
+titol_seccio: "Lorem ipsum dolor sit amet"
 imatge: "psicomotricidad.jpg"
 descripcio_imatge: "descripció de la imatge"
 ---
-Associació autònoma de persones unides voluntàriament per satisfer les seves necessitats i aspiracions econòmiques, socials i culturals en comú, a través d’una empresa de propietat conjunta i gestió democràtica.
 
-Arcádia se organiza a  pratir de la Asamblea y las cooperativas escolares, en donde los niños y niñas apreneran a gestionar sus vidas de manera autónoma y participativa, haciendose responsables de las decisiones que libremente han acordado.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

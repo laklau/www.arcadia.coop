@@ -18,7 +18,7 @@
 
 h2,
 .h2 {
-  color: $secondary-color;
+  color: $primary-color;
 }
 
 h3,
@@ -28,7 +28,7 @@ h3,
 
 h4,
 .h4 {
-  color: $primary-color;
+  color: $secondary-color;
 }
 
 // HEADER CLIP-PATH
@@ -97,6 +97,18 @@ h4,
     clip-path: ellipse(60% 150% at 60% 100%);
   }
 }
+
+// HOME
+#a1-home .feature-1 {
+  min-height: 363px;
+  max-height: 800px;
+  padding: 2.65625em;
+}
+
+#a1-home h2 {
+  margin:30px;
+}
+
 
 // FEATURES AVATAR
 
