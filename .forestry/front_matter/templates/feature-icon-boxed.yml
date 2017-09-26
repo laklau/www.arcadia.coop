@@ -1,0 +1,53 @@
+---
+hide_body: false
+fields:
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: feature-icon-boxed
+- name: include
+  label: Include
+  type: text
+  hidden: false
+  default: default-section.html
+- name: order
+  label: Order
+  type: text
+  hidden: false
+  default: 1
+- name: titol_seccio
+  label: Titol seccio
+  type: text
+  hidden: false
+  default: Títol de la secció
+- name: conceptes
+  label: Conceptes
+  type: field_group_list
+  fields:
+  - name: nom
+    label: Nom
+    type: text
+    hidden: false
+    default: ''
+  - name: subtitol
+    label: Subtitol
+    type: text
+    hidden: false
+    default: ''
+  - name: icona
+    label: Icona
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - nom: Autogestió
+    subtitol: Cooperativisme autogestionari
+    icona: Loop
+  - nom: Educació Integral
+    subtitol: Educació Integral
+    icona: Pencil-Ruler
+  - nom: Llibertat responsable
+    subtitol: 'Llibertat '
+    icona: Bodybuilding

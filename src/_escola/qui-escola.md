@@ -1,9 +1,7 @@
 ---
-# Set the display order for this section
 order: 2
-# Specify the layout for this section
 include: sections/parallax-picture.html
-# Set variables
-titol_seccio: "Qui és l'Arcàdia"
+titol_seccio: Qui és l'Arcàdia
+date: 2017-09-26 17:27:04 +0000
 ---
 El grup promotor d’Arcàdia ja fa deu anys que es va incorporar al teixit associatiu i cooperatiu del barri amb el clar objectiu d’implementar-hi el projecte d’escola autogestionada.

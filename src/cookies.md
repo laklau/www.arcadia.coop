@@ -1,9 +1,8 @@
 ---
 layout: basic
-title: "Política de cookies"
-# Set SEO information
-description: "Informació sobre les cookies del site"
-keywords:
+title: Política de cookies
+description: Informació sobre les cookies del site
+keywords: 
 ---
 ## Política de cookies
 

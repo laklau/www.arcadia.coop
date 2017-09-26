@@ -1,8 +1,6 @@
 ---
-# Set the display order for this section
 order: 2
-# Specify the layout for this section
 include: contacte/map.html
-# Set variables
-titol_seccio: "On trobar-nos"
+titol_seccio: On trobar-nos
+date: 2017-09-26 17:27:04 +0000
 ---

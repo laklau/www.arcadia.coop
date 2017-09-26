@@ -21,7 +21,8 @@ twitter: adab1ts
 
 # Where things are
 source: src
-destination:
+destination: _site
+data_dir: _data
 images_path: assets/img
 theme_scripts_path: assets/pillar/js
 theme_styles_path: assets/pillar/css
@@ -121,12 +122,15 @@ markdown: kramdown
 highlighter: rouge
 
 # Build settings
-theme: minima
 gems:
   - jekyll-feed
+plugins_dir:
+  - jekyll-menus
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
 
 # Outputting
 permalink: pretty

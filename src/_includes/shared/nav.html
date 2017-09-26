@@ -12,30 +12,20 @@
         </div>
         <div class="nav-module menu-module left">
           <ul class="menu">
-              <li class="vpf">
-                  <a href="{{ site.baseurl }}{% link index.md %}" target="_self">INICI</a>
-              </li>
-
-              <li>
-                  <a href="{{ site.baseurl }}{% link escola.md %}" target="_self">L'ESCOLA</a>
+            {% for item in site.menus.header %}
+              <li class="menu-item-{{ forloop.index }}">
+                <a href="{{ item.url }}" title="Anar a {{ item.title }}" target="_self">{{ item.title }}</a>
+                {% if item.children %}
                   <ul class="make-right">
-                      <li>
-                          <a href="{{ site.baseurl }}{% link objectius.md %}" target="_self">OBJECTIUS</a>
-                      </li>
-                      <li class="vpf">
-                          <a href="{{ site.baseurl }}{% link funcionament.md %}" target="_self">COM FUNCIONEM</a>
-                      </li>
+                  {% for item in item.children %}
+                    <li class="menu-item-{{ loop.index }}">
+                      <a href="{{ item.url }}" title="Anar a {{ item.title }}">{{ item.title }}</a>
+                    </li>
+                  {% endfor %}
                   </ul>
+                {% endif %}
               </li>
-              <li class="vpf">
-                  <a href="{{ site.baseurl }}{% link teoria.md %}" target="_self">principis pedagògics</a>
-              </li>
-              <li class="vpf">
-                  <a href="{{ site.baseurl }}{% link projecte.md %}" target="_self">projecte tècnic</a>
-              </li>
-              <li class="vpf">
-                  <a href="{{ site.baseurl }}{% link contacte.md %}" target="_self">CONTACTE</a>
-              </li>
+            {% endfor %}
           </ul>
         </div>
     </div>

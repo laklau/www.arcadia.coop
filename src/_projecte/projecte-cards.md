@@ -1,9 +1,6 @@
 ---
-# Set the display order for this section
 order: 2
-# Specify the layout for this section
 include: sections/vertical-card.html
-# Set variables
-titol_seccio: "Vertical Text Cards Title"
-
+titol_seccio: Vertical Text Cards Title
+date: 2017-09-26 17:27:04 +0000
 ---

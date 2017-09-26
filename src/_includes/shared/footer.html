@@ -4,12 +4,13 @@
     <div class="row">
       <div class="col-md-3 col-sm-8">
           <ul class="footer__navigation">
-              <li>
-                  <a href="{{ site.baseurl }}{% link cookies.md %}"><span>COOKIES</span></a>
+            {% for item in site.menus.footer %}
+              <li class="menu-item-{{ forloop.index }}">
+                <a href="{{ item.url }}" title="Anar a {{ item.title }}" target="_self">
+                  <span>{{ item.title }}</span>
+                </a>
               </li>
-              <li>
-                  <a href="{{ site.baseurl }}{% link legal.md %}"><span>INFORMACIÓ LEGAL</span></a>
-              </li>
+            {% endfor %}
           </ul>
       </div>
       <div class="col-md-6 col-sm-12 a1-subscription">

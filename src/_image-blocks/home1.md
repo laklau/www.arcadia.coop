@@ -1,9 +1,10 @@
 ---
-title: "Un model educatiu basat en la llibertat responsable"
-imatge: "psicomotricidad.jpg"
-descripcio_imatge: "descripció de la imatge"
+title: Un model educatiu basat en la llibertat responsable
+imatge: psicomotricidad.jpg
+descripcio_imatge: descripció de la imatge
 pagina: home
 order: 2
+date: 2017-09-26 17:27:04 +0000
 ---
 Apoyo mutuo, solidaridad, libertad, igualdad ético colectiva, dignidad, responsabilidad, participación, compromiso, decisión colectiva, sinceridad, autonomia, derechos y obligaciones, respeto ...
 

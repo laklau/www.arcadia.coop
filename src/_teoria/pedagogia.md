@@ -1,8 +1,6 @@
 ---
-# Set the display order for this section
 order: 1
-# Specify the layout for this section
 include: sections/feature-side-icon.html
-# Set variables
-titol_seccio: "Rasgos de innovación pedagògica y social"
+titol_seccio: Rasgos de innovación pedagògica y social
+date: 2017-09-26 17:27:04 +0000
 ---

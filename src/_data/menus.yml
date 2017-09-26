@@ -1,0 +1,31 @@
+header:
+- identifier: inici
+  url: "/"
+  weight: 1
+  title: Inici
+- identifier: escola
+  url: "/escola"
+  weight: 2
+  title: L'escola
+- identifier: teoria
+  url: "/teoria"
+  weight: 3
+  title: Principis pedagògics
+- identifier: projecte
+  url: "/projecte"
+  weight: 4
+  title: Projecte tècnic
+- identifier: contacte
+  url: "/contacte"
+  weight: 5
+  title: Contacte
+
+footer:
+- identifier: cookies
+  url: "/cookies"
+  weight: 1
+  title: Cookies
+- identifier: legal
+  url: "/legal"
+  weight: 2
+  title: Informació legal

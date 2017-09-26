@@ -1,6 +1,7 @@
 ---
-title: "Autoevaluació"
-avatar: "montessori.jpg"
+title: Autoevaluació
+avatar: montessori.jpg
 order: 5
+date: 2017-09-26 17:27:04 +0000
 ---
 En el espacio de aprendizaje de Arcadia  los niños y niñas  seran completamente libres para jugar en todo lo que les gusta, ya que consideramos el juego creativo e imaginativo como una parte esencial de la infancia y desarrollo integral del niño y niña.

@@ -1,0 +1,33 @@
+---
+hide_body: false
+fields:
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: imageblock
+- name: include
+  label: Include
+  type: text
+  hidden: false
+  default: default-section.html
+- name: order
+  label: Order
+  type: text
+  hidden: false
+  default: 1
+- name: titol_seccio
+  label: Titol seccio
+  type: text
+  hidden: false
+  default: Títol de la secció
+- name: imatge
+  label: Imatge
+  type: text
+  hidden: false
+  default: psicomotricidad.jpg
+- name: descripcio_imatge
+  label: Descripcio imatge
+  type: text
+  hidden: false
+  default: fotografia

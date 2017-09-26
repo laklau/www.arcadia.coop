@@ -1,0 +1,63 @@
+---
+hide_body: false
+fields:
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: features-3-blocs
+- name: include
+  label: Include
+  type: text
+  hidden: false
+  default: default-section.html
+- name: order
+  label: Order
+  type: text
+  hidden: false
+  default: 1
+- name: titol_seccio
+  label: Titol seccio
+  type: text
+  hidden: false
+  default: Títol de la secció
+- name: subtitol_seccio
+  label: Subtitol seccio
+  type: text
+  hidden: false
+  default: Lorem ipsum dolor sit amet
+- name: blocs
+  label: Blocs
+  type: field_group_list
+  fields:
+  - name: nom
+    label: Nom
+    type: text
+    hidden: false
+    default: ''
+  - name: subtitol
+    label: Subtitol
+    type: text
+    hidden: false
+    default: ''
+  - name: icona
+    label: Icona
+    type: text
+    hidden: false
+    default: ''
+  - name: bg_color
+    label: Bg color
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - nom: Nom de la característica
+    subtitol: Lorem ipsum dolor sit amet. Ut enim ad minim veniam.
+    icona: Loop
+    bg_color: secondary
+  - nom: Nom de la característica
+    subtitol: Lorem ipsum dolor sit amet. Ut enim ad minim veniam.
+    icona: Loop
+    bg_color: secondary
+  description: Continguts dels 3 blocs que conformen la secció

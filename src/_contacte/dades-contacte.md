@@ -1,8 +1,6 @@
 ---
-# Set the display order for this section
 order: 1
-# Specify the layout for this section
 include: contacte/contact-info.html
-# Set variables
-titol_seccio: "Dades de contacte"
+titol_seccio: Dades de contacte
+date: 2017-09-26 17:27:04 +0000
 ---
